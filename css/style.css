@@ -1,0 +1,113 @@
+body {
+    background-image: url(image.jpg);
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 10;
+
+}
+#nav {
+    float: left;
+    margin: 0;
+    padding: 0;
+    border: 1px solite white;
+    border-bottom: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+#nav li,
+#nav li a {
+  float: left;
+}
+#nav li {
+  list-style: none;
+  position: relative;
+
+}
+#nav li a {
+  padding: 14px 28px;
+  text-decoration: none;
+  color: white;
+  background: #e4f5fc; /* Old browsers */
+  background: -moz-linear-gradient(top, #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=0 ); /* IE6-9 */
+
+  border-right: 1px solid #e4f5fc;
+  border-left: 1px solid #bfe8f9;
+  border-bottom: 1px solid #232323
+}
+#nav li a:hover {
+  background: #9fd8ef; /* Old browsers */
+background: -moz-linear-gradient(top, #9fd8ef 45%, #e4f5fc 83%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #9fd8ef 45%,#e4f5fc 83%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #9fd8ef 45%,#e4f5fc 83%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9fd8ef', endColorstr='#e4f5fc',GradientType=0 ); /* IE6-9 */
+}
+#nav li ul {
+  display: none;
+  position: absolute;
+  left: 0;
+  padding: 0;
+  top: 100%;
+  margin: 0;
+
+}
+#nav li:hover > ul {
+  display: block;
+
+}
+#nav li ul li a {
+  width: 100px;
+  display: block;
+
+}
+.main-search {
+display: inline-flex;
+font-size: 20px;
+position: fixed;
+}
+.search:hover,
+.search:focus {
+  border-color: #4d4
+}
+.search {
+  font-size: inherit;
+  border: 0.4em solid #7e7;
+  border-radius: 0.5em 0 0 0.5em;
+  padding: 0.2em 0.5em;
+  outline: 0;
+
+}
+.search-button {
+  font-size: inherit;
+  border: 0.2em solid #7e7;
+  border-radius: 0 0.5em 0.5em 0;
+  background-color: #7e7;
+  border-left: 0;
+  padding: 0 0.75em;
+  font-weight: bold;
+  outline: 0;
+  cursor: pointer;
+
+}
+.search-button:hover,
+.search-button:focus {
+  border-color: #4d4;
+  background-color: #4d4
+}
+.join-form {
+  position: fixed;
+  padding: 50px;
+
+}
+.name {
+  position: fixed;
+  border-bottom: 50px;
+}
+.send {
+  position: fixed;
+
+}

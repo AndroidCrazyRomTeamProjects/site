@@ -1,0 +1,12 @@
+title: Android Crazy Rom Team
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      # Sites have their own title to show.
+      title: "Android Crazy Rom Team"
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
