@@ -1,0 +1,7 @@
+#compiuter temp files
+Thumbs.db
+.DS-STORE
+dakstop.ini
+*tmp
+#logs
+*log
